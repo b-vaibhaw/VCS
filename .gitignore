@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# MeetingInsight specific
+data/
+tokens/*.json
+logs/
+*.db
+*.db-journal
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+bot/node_modules/
+bot/package-lock.json
+
+# Audio files
+*.mp3
+*.wav
+*.mp4
+*.webm
+*.m4a
+!samples/test_meeting.mp3
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Credentials
+credentials.json
+client_secret*.json
+
+# Backups
+backups/
+*.backup
+
+# Build
+dist/
+build/
+*.egg-info/
