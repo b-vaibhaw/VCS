@@ -1,0 +1,34 @@
+{
+  "name": "meetinginsight-bot",
+  "version": "1.0.0",
+  "description": "Puppeteer bot for automated meeting capture (Google Meet, Zoom)",
+  "main": "meet_bot.js",
+  "scripts": {
+    "start": "node meet_bot.js",
+    "meet": "node meet_bot.js",
+    "zoom": "node zoom_bot.js",
+    "test": "node meet_bot.js https://meet.google.com/test-test-test"
+  },
+  "keywords": [
+    "meeting",
+    "bot",
+    "puppeteer",
+    "google-meet",
+    "zoom",
+    "transcription",
+    "automation"
+  ],
+  "author": "MeetingInsight Team",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.6.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
