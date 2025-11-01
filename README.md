@@ -96,8 +96,8 @@ streamlit run app.py
 **Access at:** http://localhost:8501
 
 **Default credentials:**
-- Username: `admin`
-- Password: `admin123` (⚠️ Change immediately!)
+- Username: `user`
+- Password: `@1user2` (⚠️ Change immediately!)
 
 ---
 
@@ -390,5 +390,6 @@ If you find this project useful, please consider giving it a star!
 ---
 
 **Made by Aditya and Team**
+
 
 *Free Forever • Open Source • Privacy First*
